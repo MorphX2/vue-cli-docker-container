@@ -63,8 +63,8 @@ EXPOSE 8080
 
 CMD [ "http-server", "dist" ]
 ```
-**Create the Docker container and image:**
+**Create the Docker image:**
 - docker build -t vue-hello-world .
 
 **Run the containerized Node application:**
-- docker run it -p 8080:8080 —rm —name vue-hello-world
+- docker run -it -p 8080:8080 —rm —name vue-hello-world
