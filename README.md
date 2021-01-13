@@ -64,10 +64,10 @@ EXPOSE 8080
 CMD [ "http-server", "dist" ]
 ```
 **Create the Docker image:**
-- docker build -t vue-hello-world .
+- docker build -t vue-hello-world-docker-image .
 
 **Run the containerized Node application:**
-- docker run -it -p 8080:8080 —rm —name vue-hello-world
+- docker run -it -p 8080:8080 --rm --name vue-hello-world-container vue-hello-world-docker-image
 
 **Useful links:**
-[Dockerize Vue.js App](https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
+- [Dockerize Vue.js App](https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
