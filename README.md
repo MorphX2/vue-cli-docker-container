@@ -1,13 +1,13 @@
-# Containerizing the VUE Hello World Node Application
+# Containerizing the Vue Hello World Node Application
 
-This small set of instructions will help you containerize the vue-cli and hello-world Node.js application.
+This set of instructions will help you create a Docker image from the vue-cli and hello-world Node.js application. From there you will be able to run the image in a container.
 
 ### Pre-requisites:
 * Ensure that you have git-scm installed on your local system.
 * Ensure that you have Node.js installed on your local system.
 * Ensure that you have a operational docker installation.
 
-### High Level Steps for building the container on MacOS:
+### High Level Steps for building the image on MacOS:
 ```
 1. Install Docker Desktop
 2. Install Homebrew
@@ -19,7 +19,7 @@ This small set of instructions will help you containerize the vue-cli and hello-
 8. Use docker run to bind port 8080 to the localhost and run the container.
 ```
 
-### Steps for building the vue hello-world docker container:
+### Steps for building the vue hello-world docker image:
 
 **Install Homebrew:**
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
