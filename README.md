@@ -68,3 +68,6 @@ CMD [ "http-server", "dist" ]
 
 **Run the containerized Node application:**
 - docker run -it -p 8080:8080 —rm —name vue-hello-world
+
+**Useful links:**
+[Dockerize Vue.js App](https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
